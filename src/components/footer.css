@@ -1,0 +1,30 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #e7717d;
+  padding: 3vh;
+}
+.footer-container .footer-resource {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+}
+.footer-resource > a {
+  text-decoration: underline;
+  color: yellow;
+  text-align: center;
+}
+
+.footer-resource .fa {
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+
+  padding: 10px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}

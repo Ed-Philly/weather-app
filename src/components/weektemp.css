@@ -1,0 +1,33 @@
+.week-card-container {
+  display: flex;
+  background-color: lightblue;
+  overflow-x: scroll;
+}
+
+.week-card-container .week-card {
+  display: block;
+  background-color: lightcoral;
+  min-width: 15%;
+  padding: 12px 20px;
+  margin: 5px;
+}
+.week-card .date {
+  font-weight: 900;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 5px;
+}
+.week-card .temp {
+  margin-top: 5px;
+  font-size: 18px;
+  color: white;
+}
+.week-card .temp .look-temp {
+  background-color: lightgreen;
+  border-radius: 10px;
+  padding: 5px 8px;
+}
+.week-card .description {
+  text-transform: uppercase;
+  font-weight: 900;
+}

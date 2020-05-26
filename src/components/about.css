@@ -1,0 +1,15 @@
+.about-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin: 10vh auto;
+  padding: 10px 12px;
+  font-size: 2rem;
+}
+
+.about-container > p {
+  text-align: justify;
+  line-height: 1.8;
+}

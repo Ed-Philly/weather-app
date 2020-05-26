@@ -1,0 +1,38 @@
+.tempcard-two-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #cafafe;
+  color: #8860d0;
+
+  height: 100%;
+  width: 28%;
+  align-items: center;
+  box-shadow: 2px 3px 6px rgba(255, 255, 255, 0.5),
+    -1px 2px 6px rgba(0, 0, 0, 0.9);
+}
+.tempcard-two-container .label-container {
+  display: flex;
+  margin-bottom: 4px;
+  border-bottom: 2px solid rgba(0, 255, 255, 0.5);
+}
+.tempcard-two-container .label,
+.tempcard-two-container span {
+  font-size: 22px;
+  text-transform: capitalize;
+  padding: 15px;
+}
+.btn-wrapper button {
+  border: none;
+  padding: 12px;
+  font-size: 14px;
+  outline: none;
+}
+.btn-wrapper button:hover {
+  background-color: rgb(216, 216, 216);
+}
+@media screen and (max-width: 430px) {
+  .tempcard-two-container {
+    width: 100%;
+  }
+}

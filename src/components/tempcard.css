@@ -1,0 +1,69 @@
+.tempcard-container {
+  display: flex;
+  width: 33%;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #cafafe;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.location-box {
+  text-align: center;
+}
+.location-box .location {
+  padding: 15px;
+  color: #c2b9b0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.location-box .date {
+  color: #7e685a;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+.weather-box {
+  text-align: center;
+  padding: 15px;
+}
+
+.weather-box .temp {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 15px 15px;
+  border-radius: 16px;
+  color: #d79922;
+  font-size: 68px;
+  font-weight: 900;
+
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+.weather-box .celsius {
+  display: flex;
+  font-size: 18px;
+  color: #0074e1;
+  cursor: pointer;
+}
+
+.weather-box .icon {
+  width: 80px;
+  height: 80px;
+}
+
+.weather-box .weather {
+  color: black;
+  font-size: 48px;
+  font-weight: 200;
+  padding: 15px;
+}
+
+@media screen and (max-width: 430px) {
+  .tempcard-container {
+    width: 100%;
+  }
+}
