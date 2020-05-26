@@ -28,3 +28,10 @@
   background: #007bb5;
   color: white;
 }
+
+@media screen and (max-width: 430px) {
+  .footer-container .footer-resource {
+    flex-direction: column;
+    align-items: center;
+  }
+}

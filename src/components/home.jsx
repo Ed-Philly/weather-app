@@ -28,9 +28,7 @@ function Home() {
             setWeather(data);
             setQuery("");
             setErrorMsg("");
-            console.log(data);
           } else {
-            console.log("error", data);
             setWeather("");
             setQuery("");
             data.cod === "404"

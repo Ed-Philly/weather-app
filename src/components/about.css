@@ -10,6 +10,18 @@
 }
 
 .about-container > p {
-  text-align: justify;
   line-height: 1.8;
+}
+
+@media screen and (max-width: 430px) {
+  .about-container > p {
+    line-height: 1;
+    font-size: 1.5rem;
+  }
+  .about-container p:last-child {
+    margin-bottom: 6em;
+  }
+  .about-container {
+    margin: 5vh auto;
+  }
 }

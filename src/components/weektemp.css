@@ -31,3 +31,9 @@
   text-transform: uppercase;
   font-weight: 900;
 }
+
+@media screen and (max-width: 430px) {
+  .week-card-container .week-card {
+    min-width: 60%;
+  }
+}
